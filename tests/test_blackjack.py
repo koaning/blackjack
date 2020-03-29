@@ -10,3 +10,6 @@ def test_simple_usecase(cards, score):
 def test_raise_error(cards):
     with pytest.raises(ValueError):
         card_score(cards)
+
+def test_will_fail():
+    assert False
